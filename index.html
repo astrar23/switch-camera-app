@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Switch Camera</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+      <div id="container">
+        <h1>Switch Camera</h1>
+  
+        <div>
+          <label>Select Audio Source (Microphone)</label>
+          <select id="audio-source"></select>
+          <br>
+          <label>Select Video Source (Camera)</label>
+          <select id="video-source"></select>
+          <br>
+          <label>Video Focus</label>
+          <input id="focus-range-input" type="range" hidden="" />
+          <br>
+          <label>Live Preview:</label>
+          <!-- Important to set autoplay to true, otherwise the video won't play anything at the beginning -->
+          <video autoplay="true" id="player" controls></video>
+        </div>
+
+        <div id="debug-msg">
+        </div>
+
+      </div>
+  
+      <script src="./script.js"></script>
+  </body>
+</html>

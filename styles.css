@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 10px;
+  height: 100%;
+  background: black;
+  margin: 0;
+}
+
+h1, label {
+  color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+#container {
+  text-align: center;
+  margin: 0;
+}
+
+#debug-msg {
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8em;
+  color: green;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  /*background-color: white;*/
+}
